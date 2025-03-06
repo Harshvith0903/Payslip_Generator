@@ -41,21 +41,13 @@ Payslip/
    python payslip.py
    ```
 
-## 🚀 Usage
+##  Usage
 1. Upload the `employee_data.xlsx` file via the interface (if using Gradio).
 2. The script processes employee data and generates payslips.
 3. Download the generated payslips from the output directory.
 
-## 🎯 Future Enhancements
+##  Future Enhancements
 - 📧 Automate email delivery of payslips.
 - 🎨 Improve UI for better usability.
 - 🗄 Add a database for persistent storage.
 
-## 📜 License
-This project is open-source and available under the MIT License.
-
-## 👥 Contributors
-- [Your Name]
-
-## ⭐ Contribute
-Feel free to fork this repository, submit issues, or create pull requests to improve the project! 🚀
