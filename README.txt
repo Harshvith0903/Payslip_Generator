@@ -1,4 +1,4 @@
-# Payslip Generation System
+#Payslip Generation System
 
 ## Overview
 This project is a Python-based system for generating employee payslips. It processes employee data from an Excel file and generates corresponding payslips. The project appears to integrate with Gradio for a web-based interface.
@@ -50,9 +50,3 @@ Payslip/
 - Automate email delivery of payslips.
 - Improve UI for better usability.
 - Add a database for persistent storage.
-
-## License
-This project is open-source and available under the MIT License.
-
-## Contributors
-- [Your Name]
