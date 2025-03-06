@@ -1,6 +1,5 @@
-#Payslip Generation System
+# Payslip Generation System
 
-## Overview
 This project is a Python-based system for generating employee payslips. It processes employee data from an Excel file and generates corresponding payslips. The project appears to integrate with Gradio for a web-based interface.
 
 ## Features
@@ -9,24 +8,12 @@ This project is a Python-based system for generating employee payslips. It proce
 - Web-based interface using Gradio.
 - Store and retrieve processed payslips.
 
-## Project Structure
-```
-Payslip/
-│── payslip.py                # Main script for processing payslips
-│── employee_data.xlsx        # Sample employee data
-│── .gradio/                  # Stores Gradio-related data
-│   ├── certificate.pem       # SSL certificate (if applicable)
-│   ├── flagged/              # Stores flagged data
-│── .git/                     # Version control files
-```
-
 ## Installation
-
 ### Prerequisites
 - Python 3.x
 - Required Python libraries (listed in `payslip.py`)
 
-### Setup
+### Steps to Install and Run
 1. Clone the repository:
    ```sh
    git clone <repo-url>
@@ -40,6 +27,17 @@ Payslip/
    ```sh
    python payslip.py
    ```
+
+## Folder Structure
+```
+Payslip/
+│── payslip.py                # Main script for processing payslips
+│── employee_data.xlsx        # Sample employee data
+│── .gradio/                  # Stores Gradio-related data
+│   ├── certificate.pem       # SSL certificate (if applicable)
+│   ├── flagged/              # Stores flagged data
+│── .git/                     # Version control files
+```
 
 ## Usage
 1. Upload the `employee_data.xlsx` file via the interface (if using Gradio).
